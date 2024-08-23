@@ -30,17 +30,17 @@ python = ">=3.10,<3.13"
 langflow-base = { path = "./src/backend/base", develop = true }
 beautifulsoup4 = "^4.12.3"
 google-search-results = "^2.4.2"
-google-api-python-client = "^2.130.0"
+google-api-python-client = "^2.142.0"
 huggingface-hub = { version = "^0.24.6", extras = ["inference"] }
 llama-cpp-python = { version = "~0.2.89", optional = true }
-networkx = "^3.1"
+networkx = "^3.3"
 fake-useragent = "^1.5.0"
 pyarrow = "^14.0.0"
 wikipedia = "^1.4.0"
 qdrant-client = "^1.9.0"
 weaviate-client = "*"
-sentence-transformers = { version = "^2.3.1", optional = true }
-ctransformers = { version = "^0.2.10", optional = true }
+sentence-transformers = { version = "^3.0.1", optional = true }
+ctransformers = { version = "^0.2.27", optional = true }
 cohere = "^5.8.1"
 faiss-cpu = "^1.8.0"
 types-cachetools = "^5.3.0.5"
@@ -63,7 +63,7 @@ numexpr = "^2.10.1"
 qianfan = "0.3.5"
 pgvector = "^0.2.3"
 pyautogen = "^0.2.35"
-langchain-google-genai = "1.0.8"
+langchain-google-genai = "1.0.10"
 langchain-cohere = "^0.2.2"
 elasticsearch = "^8.12.0"
 pytube = "^15.0.0"
@@ -98,7 +98,7 @@ langchain-milvus = "^0.1.4"
 crewai = {extras = ["tools"], version = "0.51.1"}
 langwatch = "^0.1.21"
 langsmith = "^0.1.104"
-yfinance = "^0.2.40"
+yfinance = "^0.2.42"
 langchain-google-community = "1.0.8"
 wolframalpha = "^5.1.3"
 astra-assistants = "^2.0.15"

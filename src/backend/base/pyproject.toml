@@ -27,7 +27,7 @@ langflow-base = "langflow.__main__:main"
 
 [tool.poetry.dependencies]
 python = ">=3.10,<3.13"
-fastapi = "^0.111.0"
+fastapi = "^0.112.1"
 httpx = "*"
 uvicorn = "^0.30.0"
 gunicorn = "^22.0.0"
@@ -78,7 +78,7 @@ nanoid = "^2.0.0"
 filelock = "^3.15.4"
 grandalf = "^0.8.0"
 crewai = "^0.51.1"
-spider-client = "^0.0.27"
+spider-client = "^0.0.68"
 diskcache = "^5.6.3"
 
 
